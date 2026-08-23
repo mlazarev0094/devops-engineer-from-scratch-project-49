@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49/actions)
 # Brain Games
 
-Набор из 2 игр.
+Набор из 3 игр.
 ### brain-even - Проверка на чётность
 
 Пользователю показывается случайное число. Нужно ответить `yes`, если число чётное, или `no` — если нечётное.
@@ -18,3 +18,11 @@
 **Демонстрация работы:**
 
 [![asciicat](https://asciinema.org/a/qcWh4Loh7MPovqM7.svg)](https://asciinema.org/a/qcWh4Loh7MPovqM7)
+
+### brain-gcd - Наибольший общий делитель (НОД)
+
+Пользователь должен вычислить и ввести наибольший общий делитель двух случайных чисел.
+
+**Демонстрация работы:**
+
+[![asciicat](https://asciinema.org/a/EGStqLrBj8c5IF25.svg)](https://asciinema.org/a/EGStqLrBj8c5IF25)
