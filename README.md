@@ -11,7 +11,7 @@
 
 [![asciicast](https://asciinema.org/a/c58lBFh5x6ep6fz7.svg)](https://asciinema.org/a/c58lBFh5x6ep6fz7)
 
-###brain-calc - Калькулятор
+### brain-calc - Калькулятор
 
 Пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ.
 
