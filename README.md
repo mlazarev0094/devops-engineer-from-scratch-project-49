@@ -9,7 +9,7 @@
 
 **Демонстрация работы:**
 
-[![asciicast](https://asciinema.org/a/c58lBFh5x6ep6fz7.svg)](https://asciinema.org/a/c58lBFh5x6ep6fz7)
+[![asciicast](https://asciinema.org/a/c58lBFh5x6ep6fz7.svg)](https://asciinema.org/a/c58lBFh5x6ep6fz7?autoplay=1)
 
 ### brain-calc - Калькулятор
 
@@ -17,7 +17,7 @@
 
 **Демонстрация работы:**
 
-[![asciicat](https://asciinema.org/a/qcWh4Loh7MPovqM7.svg)](https://asciinema.org/a/qcWh4Loh7MPovqM7)
+[![asciicast](https://asciinema.org/a/qcWh4Loh7MPovqM7.svg)](https://asciinema.org/a/qcWh4Loh7MPovqM7?autoplay=1)
 
 ### brain-gcd - Наибольший общий делитель (НОД)
 
@@ -25,4 +25,4 @@
 
 **Демонстрация работы:**
 
-[![asciicat](https://asciinema.org/a/EGStqLrBj8c5IF25.svg)](https://asciinema.org/a/EGStqLrBj8c5IF25)
+[![asciicast](https://asciinema.org/a/EGStqLrBj8c5IF25.svg)](https://asciinema.org/a/EGStqLrBj8c5IF25?autoplay=1)
