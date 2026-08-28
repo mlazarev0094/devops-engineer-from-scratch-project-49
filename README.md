@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49/actions)
 # Brain Games
 
-Набор из 3 игр.
+Набор из 5 игр.
 ### brain-even - Проверка на чётность
 
 Пользователю показывается случайное число. Нужно ответить `yes`, если число чётное, или `no` — если нечётное.
@@ -35,3 +35,10 @@
 
 [![asciicast](https://asciinema.org/a/68DJ1dCpjUNGBeXG.svg)](https://asciinema.org/a/68DJ1dCpjUNGBeXG?autoplay=1)
 
+### brain-prime - Простое ли число?
+
+Пользователю показывается случайное число. Нужно ответить `yes`, если число простое, или `no` — если не простое.
+
+**Демонстрация работы:**
+
+[![asciicast](https://asciinema.org/a/HbYdux7Lgp3F2lrF.svg)](https://asciinema.org/a/HbYdux7Lgp3F2lrF?autoplay=1)
