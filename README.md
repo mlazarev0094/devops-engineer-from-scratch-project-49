@@ -26,3 +26,12 @@
 **Демонстрация работы:**
 
 [![asciicast](https://asciinema.org/a/EGStqLrBj8c5IF25.svg)](https://asciinema.org/a/EGStqLrBj8c5IF25?autoplay=1)
+
+### brain-progression - Арифметическая прогрессия
+
+Пользователь должен вычислить пропущенное число в арифметической прогрессии.
+
+**Демонстрация работы:**
+
+[![asciicast](https://asciinema.org/a/68DJ1dCpjUNGBeXG.svg)](https://asciinema.org/a/68DJ1dCpjUNGBeXG?autoplay=1)
+

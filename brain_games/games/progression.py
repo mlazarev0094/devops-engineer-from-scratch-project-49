@@ -7,7 +7,7 @@ def progression_generate(start, step):
 
 def generate_question_and_answer():
     start = random.randint(1, 100)
-    step  = random.randint(1, 100)
+    step = random.randint(1, 100)
     progression = progression_generate(start, step)
     hidden_index = random.randint(0, 9)
     correct_answer = str(progression[hidden_index])
