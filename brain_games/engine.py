@@ -8,7 +8,7 @@ from brain_games.cli import (
 
 def run_game(game_module):
     name = welcome_user()
-    print(game_module.get_rules())
+    print(game_module.RULES)
 
     correct_count = 0
     rounds_to_win = 3

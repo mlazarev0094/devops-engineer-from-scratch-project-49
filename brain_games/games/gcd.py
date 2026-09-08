@@ -1,5 +1,7 @@
 import random
 
+RULES = 'Find the greatest common divisor of given numbers.'
+
 
 def gcd(num1, num2):
     while num2 != 0:
@@ -13,7 +15,3 @@ def generate_question_and_answer():
     correct_answer = str(gcd(num1, num2))
     question = f"Question: {num1} {num2}"
     return correct_answer, question
-
-
-def get_rules():
-    return 'Find the greatest common divisor of given numbers.'

@@ -1,5 +1,7 @@
 import random
 
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(number):
     if number < 2:
@@ -17,7 +19,3 @@ def generate_question_and_answer():
     correct_answer = "yes" if is_prime(number) else "no"
     question = f"Question: {number}"
     return correct_answer, question
-
-
-def get_rules():
-    return 'Answer "yes" if given number is prime. Otherwise answer "no".'

@@ -1,5 +1,7 @@
 import random
 
+RULES = 'What is the result of the expression?'
+
 
 def calc(num1, num2, operation):
     match operation:
@@ -18,7 +20,3 @@ def generate_question_and_answer():
     correct_answer = str(calc(num1, num2, operation))
     question = f"Question: {num1} {operation} {num2}"
     return correct_answer, question
-
-
-def get_rules():
-    return 'What is the result of the expression?'

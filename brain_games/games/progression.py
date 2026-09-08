@@ -1,5 +1,7 @@
 import random
 
+RULES = 'What number is missing in the progression?'
+
 
 def progression_generate(start, step):
     return [start + index * step for index in range(10)]
@@ -14,7 +16,3 @@ def generate_question_and_answer():
     progression[hidden_index] = ".."
     question = "Question: " + " ".join(map(str, progression))
     return correct_answer, question
-
-
-def get_rules():
-    return 'What number is missing in the progression?'
