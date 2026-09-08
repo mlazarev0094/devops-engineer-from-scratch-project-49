@@ -5,15 +5,16 @@ from brain_games.cli import (
     display_wrong
 )
 
+ROUNDS_TO_WIN = 3
+
 
 def run_game(game_module):
     name = welcome_user()
     print(game_module.RULES)
 
     correct_count = 0
-    rounds_to_win = 3
 
-    while correct_count < rounds_to_win:
+    while correct_count < ROUNDS_TO_WIN:
         correct_answer, question = game_module.generate_question_and_answer()
         print(question)
 
