@@ -6,15 +6,15 @@ from brain_games.cli import (
 )
 
 
-def run_game(generate_question_and_answer, get_rules):
+def run_game(game_module):
     name = welcome_user()
-    print(get_rules())
+    print(game_module.get_rules())
 
     correct_count = 0
     rounds_to_win = 3
 
     while correct_count < rounds_to_win:
-        correct_answer, question = generate_question_and_answer()
+        correct_answer, question = game_module.generate_question_and_answer()
         print(question)
 
         user_answer = get_user_answer()

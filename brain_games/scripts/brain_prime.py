@@ -1,9 +1,9 @@
 from brain_games.engine import run_game
-from brain_games.games.prime import generate_question_and_answer, get_rules
+from brain_games.games import prime
 
 
 def main():
-    run_game(generate_question_and_answer, get_rules)
+    run_game(prime)
 
 
 if __name__ == '__main__':
