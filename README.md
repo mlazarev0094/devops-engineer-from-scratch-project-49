@@ -19,7 +19,7 @@
 ## Установка
 
 ### Требования
-- Python 3.10 или выше
+- Python 3.14 или выше
 - uv (быстрый менеджер пакетов)
 - make
 
@@ -42,14 +42,17 @@
    make package-install
    ```
 
-**3.1. Принудительной переустановка (если пакет уже установлен)**
+**3.1. Принудительная переустановка (если пакет уже установлен)**
    ```bash
    make package-reinstall
    ```
 
 ## Запуск игр
 
-### brain-even - Проверка на чётность
+### Проверка на чётность
+   ```bash
+   brain-even
+   ```
 
 Пользователю показывается случайное число. Нужно ответить `yes`, если число чётное, или `no` — если нечётное.
 
@@ -57,7 +60,10 @@
 
 [![asciicast](https://asciinema.org/a/c58lBFh5x6ep6fz7.svg)](https://asciinema.org/a/c58lBFh5x6ep6fz7?autoplay=1)
 
-### brain-calc - Калькулятор
+### Калькулятор
+   ```bash
+   brain-calc
+   ```
 
 Пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ.
 
@@ -65,7 +71,10 @@
 
 [![asciicast](https://asciinema.org/a/qcWh4Loh7MPovqM7.svg)](https://asciinema.org/a/qcWh4Loh7MPovqM7?autoplay=1)
 
-### brain-gcd - Наибольший общий делитель (НОД)
+### Наибольший общий делитель (НОД)
+   ```bash
+   brain-gcd
+   ```
 
 Пользователь должен вычислить и ввести наибольший общий делитель двух случайных чисел.
 
@@ -73,7 +82,10 @@
 
 [![asciicast](https://asciinema.org/a/EGStqLrBj8c5IF25.svg)](https://asciinema.org/a/EGStqLrBj8c5IF25?autoplay=1)
 
-### brain-progression - Арифметическая прогрессия
+### Арифметическая прогрессия
+   ```bash
+   brain-progression
+   ```
 
 Пользователь должен вычислить пропущенное число в арифметической прогрессии.
 
@@ -81,7 +93,10 @@
 
 [![asciicast](https://asciinema.org/a/68DJ1dCpjUNGBeXG.svg)](https://asciinema.org/a/68DJ1dCpjUNGBeXG?autoplay=1)
 
-### brain-prime - Простое ли число?
+### Простое ли число?
+   ```bash
+   brain-prime
+   ```
 
 Пользователю показывается случайное число. Нужно ответить `yes`, если число простое, или `no` — если не простое.
 
