@@ -13,6 +13,8 @@
 | [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
 | [Pytest](https://pytest.org)                                           | "A mature full-featured Python testing tool"            |
 | [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
+| [Make](https://www.gnu.org/software/make/)                             | "A build automation tool used to define and run common development tasks"            |
+| [Prompt](https://pypi.org/project/prompt/)                             | "A lightweight Python library for handling user input in the command line interface." |
 
 ---
 
