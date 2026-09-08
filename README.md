@@ -3,6 +3,52 @@
 # Brain Games
 
 Набор из 5 игр.
+
+## Links
+
+Этот проект был создан с использованием этих инструментов:
+
+| Tool                                                                   | Description                                             |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
+| [Pytest](https://pytest.org)                                           | "A mature full-featured Python testing tool"            |
+| [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
+
+---
+
+## Установка
+
+### Требования
+- Python 3.10 или выше
+- uv (быстрый менеджер пакетов)
+- make
+
+### Шаги установки
+
+**1. Клонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49.git
+   cd devops-engineer-from-scratch-project-49
+   ```
+
+**2. Установка зависимостей и сборка пакета:**
+   ```bash
+   make install
+   make build
+   ```
+
+**3. Установка пакета в систему:**
+   ```bash
+   make package-install
+   ```
+
+**3.1. Принудительной переустановка (если пакет уже установлен)**
+   ```bash
+   make package-install
+   ```
+
+## Запуск игр
+
 ### brain-even - Проверка на чётность
 
 Пользователю показывается случайное число. Нужно ответить `yes`, если число чётное, или `no` — если нечётное.
