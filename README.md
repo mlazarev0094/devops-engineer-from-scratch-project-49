@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mlazarev0094/devops-engineer-from-scratch-project-49/actions)
 # Brain Games
 
-Набор из 5 игр.
+Набор из 5 консольных игр.
 
 ## Links
 
@@ -60,6 +60,8 @@
 
 [![asciicast](https://asciinema.org/a/c58lBFh5x6ep6fz7.svg)](https://asciinema.org/a/c58lBFh5x6ep6fz7?autoplay=1)
 
+---
+
 ### Калькулятор
    ```bash
    brain-calc
@@ -70,6 +72,8 @@
 **Демонстрация работы:**
 
 [![asciicast](https://asciinema.org/a/qcWh4Loh7MPovqM7.svg)](https://asciinema.org/a/qcWh4Loh7MPovqM7?autoplay=1)
+
+---
 
 ### Наибольший общий делитель (НОД)
    ```bash
@@ -82,6 +86,8 @@
 
 [![asciicast](https://asciinema.org/a/EGStqLrBj8c5IF25.svg)](https://asciinema.org/a/EGStqLrBj8c5IF25?autoplay=1)
 
+---
+
 ### Арифметическая прогрессия
    ```bash
    brain-progression
@@ -92,6 +98,8 @@
 **Демонстрация работы:**
 
 [![asciicast](https://asciinema.org/a/68DJ1dCpjUNGBeXG.svg)](https://asciinema.org/a/68DJ1dCpjUNGBeXG?autoplay=1)
+
+---
 
 ### Простое ли число?
    ```bash
