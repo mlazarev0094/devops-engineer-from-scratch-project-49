@@ -44,7 +44,7 @@
 
 **3.1. Принудительной переустановка (если пакет уже установлен)**
    ```bash
-   make package-install
+   make package-reinstall
    ```
 
 ## Запуск игр
