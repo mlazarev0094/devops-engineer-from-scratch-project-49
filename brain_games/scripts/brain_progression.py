@@ -1,5 +1,6 @@
 from brain_games.engine import run_game
-from brain_games.games.progression import generate_question_and_answer, get_rules
+from brain_games.games.progression import (
+    generate_question_and_answer, get_rules)
 
 
 def main():

@@ -1,6 +1,6 @@
 from brain_games.cli import (
     welcome_user,
-    get_user_unswer,
+    get_user_answer,
     display_correct,
     display_wrong
 )
@@ -17,7 +17,7 @@ def run_game(generate_question_and_answer, get_rules):
         correct_answer, question = generate_question_and_answer()
         print(question)
 
-        user_answer = get_user_unswer()
+        user_answer = get_user_answer()
 
         if user_answer == correct_answer:
             display_correct()

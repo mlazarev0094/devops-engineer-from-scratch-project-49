@@ -8,7 +8,7 @@ def welcome_user():
     return name
 
 
-def get_user_unswer():
+def get_user_answer():
     return input("Your answer: ").strip().lower()
 
 
