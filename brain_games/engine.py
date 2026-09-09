@@ -1,9 +1,4 @@
-from brain_games.cli import (
-    welcome_user,
-    get_user_answer,
-    display_correct,
-    display_wrong
-)
+from brain_games.cli import (welcome_user, get_user_answer, display_wrong)
 
 ROUNDS_TO_WIN = 3
 
@@ -21,10 +16,11 @@ def run_game(game_module):
         user_answer = get_user_answer()
 
         if user_answer == correct_answer:
-            display_correct()
+            print("Correct!")
             correct_count += 1
         else:
             display_wrong(user_answer, correct_answer, name)
             return
 
     print(f"Congratulations, {name}!")
+    
